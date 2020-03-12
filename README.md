@@ -1,11 +1,19 @@
-## Run a script
+Dockerfile for [Ammonite](https://github.com/lihaoyi/Ammonite)
+
+Based on alpine for minimal size
+
+## Usage
+
+## Run a script with Ammonite
+
+You can execute a script `hello.sc` with:
 
 ```
-docker run --rm -it -v $HOME/.cache/coursier:/root/.cache/coursier -v $(pwd)/hello.sc:/root/hello.sc myamm:something amm hello.sc
+docker run --rm -it -v $HOME/.cache/coursier:/root/.cache/coursier -v $(pwd)/hello.sc:/root/hello.sc note/ammonite amm hello.sc
 ```
 
-## Open a REPL
+## Open Ammonite REPL
 
 ```
-docker run --rm -it -v $HOME/.cache/coursier:/root/.cache/coursier  myamm:something
+docker run --rm -it -v $HOME/.cache/coursier:/root/.cache/coursier note/ammonite
 ```
