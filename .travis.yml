@@ -3,3 +3,6 @@ services:
 
 # Only build tags
 if: tag IS present
+
+script:
+  - ./ci/push.sh
