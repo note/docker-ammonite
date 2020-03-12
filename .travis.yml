@@ -1,0 +1,5 @@
+services:
+  - docker
+
+# Only build tags
+if: tag IS present
