@@ -2,6 +2,8 @@ Dockerfile for [Ammonite](https://github.com/lihaoyi/Ammonite)
 
 Based on alpine for minimal size
 
+Docker Hub: [https://hub.docker.com/repository/docker/note/ammonite](https://hub.docker.com/repository/docker/note/ammonite)
+
 ## Usage
 
 ### Run a script with Ammonite
